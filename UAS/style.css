@@ -1,0 +1,249 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	margin-left: 20px;
+	padding: 0px;
+	outline: 0px;
+	font-family: courier, monospace;
+	background-color: #ffffff;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1100px;
+	margin: auto;
+	position: relative;
+	font-size: 14px;
+}
+.logo a{
+	font-size: 34px;
+	font-weight: bold;
+	float: left;
+	color: #FF7600;
+}
+.menu{
+	float: right;
+}
+nav{
+	width: 100%;
+	top: 0;
+	color: #FFD384;
+	display: flex;
+	margin: auto;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li{
+	float: right;
+}
+nav ul li a{
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+section{
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+.desc{
+	font-size: 18px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #845460;
+	width: 100px;
+	line-height: 30px;
+	text-align: left;
+}
+p{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 400px;
+	line-height: 30px;
+}
+.button{
+	background:#FF7600;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: #FFFFFF;
+}
+.button:hover{
+	background:#7B113A;
+	text-decoration: none;
+}
+.pink{
+	background:#FF7600;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: #FFFFFF;
+}
+.pink:hover{
+	background-color: #7B113A;
+	text-decoration: none;
+}
+.des{
+	font-size:30px;
+	line-height: 30px;
+}
+#function column{
+	font-size: 20px;
+	margin-top: 120px;
+	margin-left: 10px;
+	color: #194350;
+	line-height: 40px;
+}
+.green{
+	background:#FF7600;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: #FFFFFF;
+}
+.green:hover{
+	background:#7B113A;
+	text-decoration: none;
+}
+.koloms{
+	margin-left: 0px;
+	color: #845460;
+	font-size: 20px;
+}
+.white{
+	background:#FF7600;
+	margin-top: 40px;
+	border-radius: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: #FFFFFF;
+}
+.white:hover{
+	background-color: #7B113A;
+	text-decoration: none;
+}
+.vid{
+	text-align: center;
+}
+.video{
+	text-align: center;
+}
+video{
+	text-align: center;
+}
+.black{
+	text-align: center;
+	background:#FF7600;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: #FFFFFF;
+}
+.black:hover{
+	background:#7B113A;
+	text-decoration: none;
+}
+.mango{
+	background:#FF7600;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: #FFFFFF;
+}
+.mango:hover{
+	background-color: #7B113A;
+	text-decoration: none;
+}
+.middle{
+	text-align: center;
+	width:100%;
+}
+#WorkProspect{
+	background: #FF7600;
+	padding: 50px 0px 50px 0px;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.footer-section{
+	width: 20%;
+	margin: 0 auto;
+}
+p{
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 50px;
+	margin-bottom: 20px;
+	color:	#194350;
+	width: 100%
+}
+#References{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	margin-top: 30px;
+}
+@media screen and (max-width: 991.98px){
+	.container{
+		width: 90%;
+	}
+	.logo a{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	nav menu{
+		width: 100%;
+		margin: 0;
+	}
+	nav.menu ul{
+		text-align: center;
+		margin:auto;
+		line-height: 60px;
+	}
+	nav.menu ul li{
+		display: inline-block;
+		float: none;
+	}
+	section{
+		display: block;
+	}
+	section img{
+		display: block;
+	}
+}
+table{
+	text-align: center;
+	font-size: 12px;
+}
+#t0 th{
+	background-color: #845460;
+	color: #FFFFFF;	
+}
+.lala{
+	text-align: left;
+}
